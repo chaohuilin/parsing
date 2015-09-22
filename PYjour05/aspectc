@@ -1,0 +1,10 @@
+#!/usr/bin/env python3
+
+from pyrser.grammar import Grammar
+from cnorm.parsing.declaration import Declaration
+from cnorm.passes import to_c
+class AspectC(Grammar, Declaration) :
+		entry = 'translation_unit'
+		grammar = """
+
+		"""
